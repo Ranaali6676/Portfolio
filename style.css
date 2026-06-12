@@ -1274,10 +1274,36 @@ ul { list-style: none; }
 
 /* Mobile: 768px */
 @media (max-width: 768px) {
-  :root {
-    --section-py: var(--space-16);
-    --nav-height: 60px;
+  .nav-toggle {
+    display: flex !important;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
   }
+
+  .nav-links {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: rgba(10, 15, 30, 0.97);
+    flex-direction: column;
+    padding: 24px;
+    gap: 8px;
+    border-bottom: 1px solid #2A3550;
+    transform: translateY(-110%);
+    transition: transform 250ms ease;
+    z-index: 999;
+    display: flex !important;
+  }
+
+  .nav-links.open {
+    transform: translateY(0);
+  }
+}
 
   /* Navigation mobile menu */
   .nav-toggle { display: flex; }
