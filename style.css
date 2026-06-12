@@ -12,7 +12,7 @@
   --clr-surface-2:    #1F2844;   /* Elevated surface */
   --clr-border:       #2A3550;   /* Subtle borders */
   --clr-accent:       #00D4B4;   /* Electric teal — primary accent */
-  --clr-accent-dim:   rgba(0, 212, 180, 0.12);
+  --clr-accent-dim:   rgba(0, 212, 180, 0.12);f
   --clr-accent-glow:  rgba(0, 212, 180, 0.35);
   --clr-text:         #E8EDF5;   /* Primary text */
   --clr-text-sub:     #8B95A8;   /* Secondary / muted text */
