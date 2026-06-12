@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rana Ali Zafar — IT Graduate, Cloud Engineer, Front-End Developer & AI Enthusiast based in Lahore, Pakistan. Explore my projects, skills, and experience." />
+  <meta name="keywords" content="Rana Ali Zafar, Cloud Engineer, Front-End Developer, AI Developer, Lahore, AWS, GCP, Huawei Cloud, Portfolio" />
+  <meta name="author" content="Rana Ali Zafar" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Rana Ali Zafar | Cloud & AI Portfolio" />
+  <meta property="og:description" content="IT Graduate specializing in Cloud Engineering, AI Development, and Front-End Web Development." />
+  <meta property="og:type" content="website" />
+
+  <title>Rana Ali Zafar | Cloud Engineer & AI Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav id="navbar" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" aria-label="Rana Ali Zafar home">
+        <span class="logo-bracket">&lt;</span>RAZ<span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section id="hero" aria-label="Introduction">
+    <div class="hero-grid-bg" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <div class="hero-terminal" aria-hidden="true">
+        <span class="terminal-prompt">$&nbsp;</span>
+        <span id="terminalText" class="terminal-text"></span>
+        <span class="terminal-cursor">▊</span>
+      </div>
+
+      <h1 class="hero-name">Rana Ali Zafar</h1>
+
+      <p class="hero-tagline">
+        Cloud Engineer &nbsp;·&nbsp; AI Developer &nbsp;·&nbsp; Front-End Specialist
+      </p>
+
+      <p class="hero-description">
+        Building resilient cloud infrastructure and intelligent software solutions — from Huawei Cloud datacenters to AI-powered automation systems. Based in Lahore, Pakistan.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        <a href="Rana_Ali_CV_ATS.pdf" class="btn btn-ghost" download aria-label="Download CV">
+          ↓ Download CV
+        </a>
+      </div>
+
+      <div class="hero-stats" aria-label="Quick stats">
+        <div class="stat">
+          <span class="stat-number">3+</span>
+          <span class="stat-label">Years Building</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-number">6+</span>
+          <span class="stat-label">Projects Shipped</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-number">3</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section id="about" class="section" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Who I Am</span>
+        <h2 id="about-heading" class="section-title">About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="about-lead">
+            I'm a results-driven IT professional who thrives at the intersection of cloud infrastructure, artificial intelligence, and user-facing software.
+          </p>
+          <p>
+            With a Bachelor's in Information Technology from Bahria University, Lahore, I've spent my academic and early career years building production-grade systems — from AI-powered pharmacy automation to cloud workload management on Huawei's enterprise datacenter infrastructure.
+          </p>
+          <p>
+            I bring a rare combination of back-end cloud engineering, AI/ML integration, and front-end development skills that lets me own a problem end-to-end rather than hand it off at the edges.
+          </p>
+          <p>
+            Outside of engineering, I led Bahria University's Sports Society as President — an experience that sharpened my stakeholder management, event coordination, and cross-team leadership skills in ways no classroom could.
+          </p>
+
+          <div class="about-tags" aria-label="Interest areas">
+            <span class="tag">Cloud Architecture</span>
+            <span class="tag">AI/ML Systems</span>
+            <span class="tag">System Administration</span>
+            <span class="tag">Business Analysis</span>
+            <span class="tag">Web Development</span>
+            <span class="tag">IoT Integration</span>
+          </div>
+        </div>
+
+        <div class="about-card">
+          <div class="about-info-block">
+            <h3 class="info-block-title">Quick Facts</h3>
+            <ul class="info-list" role="list">
+              <li>
+                <span class="info-icon" aria-hidden="true">📍</span>
+                <span>Lahore, Pakistan</span>
+              </li>
+              <li>
+                <span class="info-icon" aria-hidden="true">🎓</span>
+                <span>B.IT — Bahria University (2022–2026)</span>
+              </li>
+              <li>
+                <span class="info-icon" aria-hidden="true">☁️</span>
+                <span>Currently: Cloud Engineer @ Khazana Cloud</span>
+              </li>
+              <li>
+                <span class="info-icon" aria-hidden="true">📧</span>
+                <span>ranaalizafar190@gmail.com</span>
+              </li>
+              <li>
+                <span class="info-icon" aria-hidden="true">📞</span>
+                <span>+92-324-7916832</span>
+              </li>
+              <li>
+                <span class="info-icon" aria-hidden="true">🔗</span>
+                <a href="https://linkedin.com/in/rana-ali" target="_blank" rel="noopener noreferrer">linkedin.com/in/rana-ali</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="availability-badge">
+            <span class="availability-dot" aria-hidden="true"></span>
+            Open to new opportunities
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SKILLS ==================== -->
+  <section id="skills" class="section section-alt" aria-labelledby="skills-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">What I Work With</span>
+        <h2 id="skills-heading" class="section-title">Technical Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-category" data-reveal>
+          <div class="skill-category-icon" aria-hidden="true">☁️</div>
+          <h3 class="skill-category-title">Cloud Platforms</h3>
+          <ul class="skill-list" role="list">
+            <li class="skill-item">
+              <span class="skill-name">Huawei Cloud</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="--pct: 85%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name">Amazon Web Services (AWS)</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="--pct: 75%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name">Google Cloud Platform (GCP)</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="--pct: 70%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name">VMware Virtualization</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="--pct: 65%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-category" data-reveal>
+          <div class="skill-category-icon" aria-hidden="true">💻</div>
+          <h3 class="skill-category-title">Languages & Frameworks</h3>
+          <ul class="skill-list" role="list">
+            <li class="skill-item">
+              <span class="skill-name">JavaScript</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="--pct: 85%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name">Python</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="--pct: 80%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name">Laravel (PHP)</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="--pct: 70%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name">Flutter / Dart</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="--pct: 65%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name">SQL / BigQuery</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="--pct: 72%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-category" data-reveal>
+          <div class="skill-category-icon" aria-hidden="true">🤖</div>
+          <h3 class="skill-category-title">AI / ML & Data</h3>
+          <ul class="skill-list" role="list">
+            <li class="skill-item">
+              <span class="skill-name">Deep Learning (CNNs)</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="--pct: 70%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name">NumPy / Data Pipelines</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="--pct: 75%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name">IoT Systems Integration</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="--pct: 68%"></div>
+              </div>
+            </li>
+            <li class="skill-item">
+              <span class="skill-name">RESTful API Design</span>
+              <div class="skill-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="--pct: 82%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="skill-category" data-reveal>
+          <div class="skill-category-icon" aria-hidden="true">🛠️</div>
+          <h3 class="skill-category-title">Tools & Practices</h3>
+          <div class="skill-pills">
+            <span class="pill">Git / GitHub</span>
+            <span class="pill">RESTful APIs</span>
+            <span class="pill">JSON</span>
+            <span class="pill">BigQuery</span>
+            <span class="pill">VMware</span>
+            <span class="pill">SQA</span>
+            <span class="pill">Agile</span>
+            <span class="pill">CI/CD</span>
+            <span class="pill">Linux</span>
+            <span class="pill">Networking</span>
+            <span class="pill">Cloud Security</span>
+            <span class="pill">Microservices</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EXPERIENCE ==================== -->
+  <section id="experience" class="section" aria-labelledby="experience-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Where I've Worked</span>
+        <h2 id="experience-heading" class="section-title">Professional Experience</h2>
+      </div>
+
+      <div class="timeline" role="list">
+
+        <!-- Job 1 -->
+        <article class="timeline-item" data-reveal role="listitem">
+          <div class="timeline-marker" aria-hidden="true">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Cloud Engineer</h3>
+                <p class="timeline-company">Khazana Cloud</p>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date">March 2026 – Present</span>
+                <span class="timeline-badge timeline-badge--active">Current Role</span>
+              </div>
+            </div>
+            <ul class="timeline-duties" role="list">
+              <li>Design and manage scalable cloud infrastructure on Huawei Cloud within enterprise datacenter environments, ensuring high availability, security, and compliance across production workloads.</li>
+              <li>Collaborate with cross-functional engineering teams to deploy, optimize, and monitor cloud workloads — driving efficiency and reliability improvements across the infrastructure stack.</li>
+              <li>Implement cloud resource management best practices including cost optimization, access control policies, and incident response workflows.</li>
+            </ul>
+            <div class="timeline-tags" aria-label="Technologies used">
+              <span class="tag tag--sm">Huawei Cloud</span>
+              <span class="tag tag--sm">Datacenter Ops</span>
+              <span class="tag tag--sm">Cloud Security</span>
+              <span class="tag tag--sm">VMware</span>
+              <span class="tag tag--sm">Infrastructure</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Job 2 -->
+        <article class="timeline-item" data-reveal role="listitem">
+          <div class="timeline-marker" aria-hidden="true">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">AI Developer</h3>
+                <p class="timeline-company">Tuzn Solutions</p>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date">June 2024 – September 2024</span>
+              </div>
+            </div>
+            <ul class="timeline-duties" role="list">
+              <li>Engineered JSON-based data exchange pipelines between front-end interfaces and back-end services, significantly improving system communication throughput and reducing integration overhead.</li>
+              <li>Designed, developed, and documented RESTful APIs that extended front-end functionality and enabled reliable consumption of back-end microservices across the product suite.</li>
+              <li>Partnered with cross-functional teams — including product and design — to translate business requirements into scalable, responsive UI components shipped to production.</li>
+            </ul>
+            <div class="timeline-tags" aria-label="Technologies used">
+              <span class="tag tag--sm">JavaScript</span>
+              <span class="tag tag--sm">RESTful APIs</span>
+              <span class="tag tag--sm">JSON</span>
+              <span class="tag tag--sm">Microservices</span>
+              <span class="tag tag--sm">Front-End Dev</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Job 3 -->
+        <article class="timeline-item" data-reveal role="listitem">
+          <div class="timeline-marker" aria-hidden="true">
+            <div class="timeline-dot"></div>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Senior Supervisor</h3>
+                <p class="timeline-company">Prime Solutions</p>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date">2024 – 2025</span>
+              </div>
+            </div>
+            <ul class="timeline-duties" role="list">
+              <li>Managed daily operations for a multi-member team by implementing structured workflows that guaranteed consistent quality standards and on-time service delivery.</li>
+              <li>Monitored individual staff performance metrics and delivered actionable feedback sessions that measurably improved team productivity and accountability.</li>
+              <li>Served as the primary escalation contact for operational issues, resolving high-pressure situations with composure and decisive problem-solving.</li>
+            </ul>
+            <div class="timeline-tags" aria-label="Skills demonstrated">
+              <span class="tag tag--sm">Team Leadership</span>
+              <span class="tag tag--sm">Process Management</span>
+              <span class="tag tag--sm">Quality Control</span>
+              <span class="tag tag--sm">Stakeholder Comms</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS ==================== -->
+  <section id="projects" class="section section-alt" aria-labelledby="projects-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Things I've Built</span>
+        <h2 id="projects-heading" class="section-title">Featured Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 - Featured -->
+        <article class="project-card project-card--featured" data-reveal>
+          <div class="project-label">Capstone Project</div>
+          <h3 class="project-title">PillGenius</h3>
+          <p class="project-subtitle">AI-Powered Pharmacy Automation System</p>
+          <p class="project-description">
+            Final-year capstone project addressing a real-world healthcare challenge: manual pharmaceutical dispensing errors. PillGenius uses AI to automate end-to-end dispensing workflows — from prescription ingestion to drug validation — significantly reducing error rates and accelerating fulfillment speed.
+          </p>
+          <div class="project-tech" aria-label="Technologies">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">AI/ML</span>
+            <span class="tech-tag">Automation</span>
+            <span class="tech-tag">Healthcare Tech</span>
+          </div>
+          <div class="project-outcomes">
+            <div class="outcome">
+              <span class="outcome-icon" aria-hidden="true">↓</span>
+              <span>Reduced prescription error rates</span>
+            </div>
+            <div class="outcome">
+              <span class="outcome-icon" aria-hidden="true">↑</span>
+              <span>Improved dispensing accuracy</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card" data-reveal>
+          <div class="project-icon" aria-hidden="true">🚦</div>
+          <h3 class="project-title">Smart Traffic Control</h3>
+          <p class="project-subtitle">Deep Learning Traffic Management</p>
+          <p class="project-description">
+            A Python-based intelligent traffic management platform that uses deep learning to analyze congestion patterns in real time and dynamically optimize traffic signal timing — reducing urban bottlenecks without manual intervention.
+          </p>
+          <div class="project-tech" aria-label="Technologies">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Deep Learning</span>
+            <span class="tech-tag">Computer Vision</span>
+            <span class="tech-tag">Real-time Systems</span>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card" data-reveal>
+          <div class="project-icon" aria-hidden="true">🔥</div>
+          <h3 class="project-title">AI-Driven IoT Monitor</h3>
+          <p class="project-subtitle">Environmental Hazard Alert Platform</p>
+          <p class="project-description">
+            An IoT-integrated monitoring platform combining AI-powered anomaly detection with real-time alerting for fire and environmental hazards. Recognized for delivering measurable impact in proactive safety management across monitored environments.
+          </p>
+          <div class="project-tech" aria-label="Technologies">
+            <span class="tech-tag">IoT</span>
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Anomaly Detection</span>
+            <span class="tech-tag">Cloud Alerts</span>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card" data-reveal>
+          <div class="project-icon" aria-hidden="true">🩸</div>
+          <h3 class="project-title">BloodBridge</h3>
+          <p class="project-subtitle">Cross-Platform Blood Bank App</p>
+          <p class="project-description">
+            A Flutter mobile application connecting blood donors with recipients through a real-time availability interface. Designed for maximum accessibility on both iOS and Android, with a clean UX optimized for urgent use cases.
+          </p>
+          <div class="project-tech" aria-label="Technologies">
+            <span class="tech-tag">Flutter</span>
+            <span class="tech-tag">Dart</span>
+            <span class="tech-tag">Firebase</span>
+            <span class="tech-tag">Cross-Platform</span>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="project-card" data-reveal>
+          <div class="project-icon" aria-hidden="true">🏨</div>
+          <h3 class="project-title">Hotel Management System</h3>
+          <p class="project-subtitle">Full-Stack Operations Platform</p>
+          <p class="project-description">
+            A full-featured hotel management platform integrating database management, networking principles, and a clean front-end — covering reservations, guest management, billing, and staff operations end to end.
+          </p>
+          <div class="project-tech" aria-label="Technologies">
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">Networking</span>
+            <span class="tech-tag">DBMS</span>
+            <span class="tech-tag">Full-Stack</span>
+          </div>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="project-card" data-reveal>
+          <div class="project-icon" aria-hidden="true">💪</div>
+          <h3 class="project-title">FitFlow</h3>
+          <p class="project-subtitle">Responsive Fitness Web Application</p>
+          <p class="project-description">
+            A Laravel-powered fitness platform featuring personalized workout plans, user account management, and a fully responsive UI — built with a focus on clean architecture and an engaging user experience.
+          </p>
+          <div class="project-tech" aria-label="Technologies">
+            <span class="tech-tag">Laravel</span>
+            <span class="tech-tag">PHP</span>
+            <span class="tech-tag">MySQL</span>
+            <span class="tech-tag">Responsive UI</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EDUCATION ==================== -->
+  <section id="education" class="section" aria-labelledby="education-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Academic Background</span>
+        <h2 id="education-heading" class="section-title">Education</h2>
+      </div>
+
+      <div class="edu-grid">
+
+        <article class="edu-card" data-reveal>
+          <div class="edu-year">2022 – 2026</div>
+          <div class="edu-body">
+            <h3 class="edu-degree">Bachelor of Information Technology</h3>
+            <p class="edu-institution">Bahria University, Lahore</p>
+            <p class="edu-detail">Relevant coursework spanning the full IT spectrum: Artificial Intelligence, Database Management Systems, Software Quality Assurance, Computer Networking, Mobile Application Development, and Cloud Computing.</p>
+            <div class="edu-highlights" aria-label="Academic highlights">
+              <span class="tag tag--sm">AI & ML</span>
+              <span class="tag tag--sm">Cloud Computing</span>
+              <span class="tag tag--sm">Networking</span>
+              <span class="tag tag--sm">Mobile Dev</span>
+              <span class="tag tag--sm">DBMS</span>
+              <span class="tag tag--sm">SQA</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="edu-card" data-reveal>
+          <div class="edu-year">2019 – 2021</div>
+          <div class="edu-body">
+            <h3 class="edu-degree">FSc Pre-Engineering</h3>
+            <p class="edu-institution">Aspire College, Lahore</p>
+            <p class="edu-detail">Completed pre-engineering studies with a strong foundation in Mathematics and Physics — providing the analytical and quantitative base that underpins my engineering and systems thinking approach today.</p>
+            <div class="edu-highlights" aria-label="Subjects">
+              <span class="tag tag--sm">Mathematics</span>
+              <span class="tag tag--sm">Physics</span>
+              <span class="tag tag--sm">Analytical Thinking</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CERTIFICATIONS ==================== -->
+  <section id="certifications" class="section section-alt" aria-labelledby="certifications-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Credentials</span>
+        <h2 id="certifications-heading" class="section-title">Certifications</h2>
+      </div>
+
+      <div class="cert-grid">
+
+        <article class="cert-card" data-reveal>
+          <div class="cert-logo cert-logo--aws" aria-label="Amazon Web Services">AWS</div>
+          <div class="cert-body">
+            <h3 class="cert-name">AWS Cloud Practitioner</h3>
+            <p class="cert-issuer">Amazon Web Services</p>
+            <p class="cert-desc">Validates foundational-level understanding of AWS Cloud concepts, services, security, architecture, pricing, and support — the entry point to the AWS certification pathway.</p>
+          </div>
+        </article>
+
+        <article class="cert-card" data-reveal>
+          <div class="cert-logo cert-logo--gcp" aria-label="Google Cloud Platform">GCP</div>
+          <div class="cert-body">
+            <h3 class="cert-name">Google Cloud Fundamentals</h3>
+            <p class="cert-issuer">Google Cloud</p>
+            <p class="cert-desc">Covers core GCP infrastructure concepts, Compute Engine, Cloud Storage, BigQuery, and foundational networking and security practices on Google's cloud platform.</p>
+          </div>
+        </article>
+
+        <article class="cert-card" data-reveal>
+          <div class="cert-logo cert-logo--ai" aria-label="AI Certification">AI</div>
+          <div class="cert-body">
+            <h3 class="cert-name">AI Certification</h3>
+            <p class="cert-issuer">AISeekho</p>
+            <p class="cert-desc">Practical certification covering applied artificial intelligence concepts, machine learning workflows, and implementation of AI solutions for real-world business problems.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ACHIEVEMENTS ==================== -->
+  <section id="achievements" class="section" aria-labelledby="achievements-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Leadership & Recognition</span>
+        <h2 id="achievements-heading" class="section-title">Achievements</h2>
+      </div>
+
+      <div class="achievements-grid">
+
+        <article class="achievement-card" data-reveal>
+          <div class="achievement-icon" aria-hidden="true">🏆</div>
+          <div class="achievement-body">
+            <h3 class="achievement-title">President, Sports Society</h3>
+            <p class="achievement-org">Bahria University, Lahore</p>
+            <p class="achievement-desc">Elected President of the university-wide Sports Society — led strategic planning and execution of campus sports events, managed multi-team coordination, and cultivated a campus culture of sportsmanship and collaboration. A defining leadership experience in stakeholder management and large-scale event operations.</p>
+          </div>
+        </article>
+
+        <article class="achievement-card" data-reveal>
+          <div class="achievement-icon" aria-hidden="true">🌟</div>
+          <div class="achievement-body">
+            <h3 class="achievement-title">Recognized AI Innovation</h3>
+            <p class="achievement-org">IoT Monitoring & Alert System</p>
+            <p class="achievement-desc">Received formal recognition for developing an impactful AI solution that addresses real-world environmental safety challenges — demonstrating the ability to translate technical capability into measurable societal impact through proactive hazard detection and automated response.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section id="contact" class="section section-alt" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Let's Talk</span>
+        <h2 id="contact-heading" class="section-title">Get in Touch</h2>
+        <p class="section-sub">I'm open to cloud engineering roles, AI development opportunities, and freelance web projects. Drop me a message and I'll respond within 24 hours.</p>
+      </div>
+
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <a href="mailto:ranaalizafar190@gmail.com" class="contact-link-card">
+            <span class="contact-link-icon" aria-hidden="true">✉️</span>
+            <div>
+              <span class="contact-link-label">Email</span>
+              <span class="contact-link-value">ranaalizafar190@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+923247916832" class="contact-link-card">
+            <span class="contact-link-icon" aria-hidden="true">📞</span>
+            <div>
+              <span class="contact-link-label">Phone</span>
+              <span class="contact-link-value">+92-324-7916832</span>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/rana-ali" target="_blank" rel="noopener noreferrer" class="contact-link-card">
+            <span class="contact-link-icon" aria-hidden="true">🔗</span>
+            <div>
+              <span class="contact-link-label">LinkedIn</span>
+              <span class="contact-link-value">linkedin.com/in/rana-ali</span>
+            </div>
+          </a>
+          <div class="contact-link-card contact-link-card--static">
+            <span class="contact-link-icon" aria-hidden="true">📍</span>
+            <div>
+              <span class="contact-link-label">Location</span>
+              <span class="contact-link-value">Lahore, Pakistan</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate aria-label="Contact form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="john@company.com" required autocomplete="email" />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Job opportunity / Project inquiry" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about the role or project…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+            Send Message →
+          </button>
+          <p class="form-note" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <a href="#hero" class="footer-logo" aria-label="Back to top">
+          <span class="logo-bracket">&lt;</span>RAZ<span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-tagline">Cloud Engineer · AI Developer · Front-End Specialist</p>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="footerYear"></span> Rana Ali Zafar. All rights reserved.</p>
+        <p class="footer-credit">Built with HTML, CSS & JavaScript · Deployed on GitHub Pages</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <!-- Main Script -->
+  <script src="script.js"></script>
+</body>
+</html>
