@@ -280,9 +280,9 @@ ul { list-style: none; }
 .logo-bracket { color: var(--clr-accent); }
 
 .nav-links {
-  display: flex;
-  align-items: center;
-  gap: var(--space-1);
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 
 .nav-links a {
