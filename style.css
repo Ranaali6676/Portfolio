@@ -247,6 +247,8 @@ ul { list-style: none; }
   right: 0;
   height: var(--nav-height);
   z-index: 1000;
+  background: rgba(10,15,30,0.95);
+  backdrop-filter: blur(10px);
   transition: background var(--transition-base), backdrop-filter var(--transition-base), box-shadow var(--transition-base);
 }
 
